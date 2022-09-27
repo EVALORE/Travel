@@ -1,18 +1,6 @@
 // =============================================================================================hom
 //! Основной Шрифт
-@font-face {
-    font-family: 'Montserrat';
-    src:url('../font/Montserrat.ttf') format('truetype'),
-        url('../font/Montserrat.eot') format('embedded-opentype'),
-        url('../font/Montserrat.woff') format('woff'),
-        url('../font/Montserrat.woff2') format('woff2');
-}
+@import url(https://fonts.googleapis.com/css?family=Aleo:300,300italic,regular,italic,700,700italic);
 // =============================================================================================
 //! Дополнительные Шрифты
-@font-face {
-    font-family: 'Oswald';
-    src:url('../font/Oswald.ttf') format('truetype'),
-        url('../font/Oswald.eot') format('embedded-opentype'),
-        url('../font/Oswald.woff') format('woff'),
-        url('../font/Oswald.woff2') format('woff2');
-}
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
