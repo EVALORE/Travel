@@ -1,11 +1,11 @@
-@use '../abstracts/' as var;
+@use '../abstracts/' as *;
 
 // =============================================================================================
 //! Общие Настройки
-body{
-    @extend .font-text;
-    background: var.$white;
-    color: var.$black;
+body{ 
+    @extend .text;
+    background: $white;
+    color: $black;
 }
 
 // =============================================================================================
@@ -24,9 +24,8 @@ body{
 // =============================================================================================
 //! Настройка контейнера
 
-[class*="__container"] {
-    max-width: calc(var.$container-safe * 2 + var.$container);
-    // overflow: hidden;
+.container {
+    max-width: calc($container-safe * 2 + $container);
     margin: 0 auto;
-    padding: 0 var.$container-safe;
+    padding: 0 $container-safe;
 }
